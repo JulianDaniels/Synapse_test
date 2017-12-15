@@ -1,0 +1,10 @@
+{% block content %}
+	{% if research_bio%}
+	<ul> 
+	   {% for b in research_bio %}
+	   <li>{(b.survey_results)}</i>
+	   {% endfor %}
+	</ul>
+	{% endif %}
+	
+{% endblock %}
